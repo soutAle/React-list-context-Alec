@@ -1,0 +1,17 @@
+.box-edit{
+    border: rgb(192, 189, 189) 1px solid;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgb(162, 152, 152) 1px 4px 7px;
+
+    
+}
+
+.navbar{
+    height: 80px;
+    text-decoration: none;
+}
+footer{
+    position: relative;
+    top:150px;
+}

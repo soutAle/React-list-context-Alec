@@ -9,10 +9,10 @@ const getState = ({ getStore, getActions, setStore }) => {
                     const response = await fetch("https://playground.4geeks.com/contact/agendas/soutAlec", {
                         method: "POST",
                     });
-                    console.log(response);
                     if (response.ok) {
-                        await response.json();
-                        getActions().getContacts();
+                        const data = await response.json();
+                        setStore({ contacts: data });
+                        localStorage.setItem("contacts", JSON.stringify(data));
                     } else {
                         throw new Error("Ha ocurrido un error");
                     }
@@ -43,5 +43,3 @@ const getState = ({ getStore, getActions, setStore }) => {
 };
 
 export default getState;
-
-
