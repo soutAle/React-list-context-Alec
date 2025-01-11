@@ -1,4 +1,4 @@
-📚 <h1>Lo que aprendi en este proyecto</h1>
+<h1>📚 Lo que aprendi en este proyecto</h1>
 
 Este proyecto fue un gran paso en mi aprendizaje como desarrollador web. Me permitió profundizar en temas clave como:
 
