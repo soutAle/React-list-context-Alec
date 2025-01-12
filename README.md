@@ -1,35 +1,25 @@
-<h1>📚 Lo que aprendi en este proyecto</h1>
+<h1>Conocimientos adquiridos</h1>
+### React list context API
+- **Context API**:
+  - Permite compartir datos globalmente entre componentes sin necesidad de pasar props manualmente.
+  
+- **Hooks esenciales:**
+ -  **useState**: Manejo del estado local para la lista de contactos.
+ - **useContext**: Acceso a los datos del contexto.
+ - **useEffect**: Sincronización de datos o efectos secundarios, como cargar datos iniciales.
 
-Este proyecto fue un gran paso en mi aprendizaje como desarrollador web. Me permitió profundizar en temas clave como:
-
-Context API: Manejo de estados de manera global para compartir datos entre componentes sin necesidad de pasar props.
-
-Llamadas a APIs Externas: Aprendí a integrar servicios externos para obtener datos dinámicos.
-
-React Router DOM: Mis primeros pasos creando rutas dinámicas en una aplicación React.
-
-Estilización: Profundicé en el uso de propiedades de CSS y componentes de Bootstrap para mejorar el diseño y la experiencia del usuario.
-
-🚀 Cómo Ejecutar el Proyecto
-
-Puedes utilizar esta aplicación tanto en un entorno local como en uno remoto:
-
-Ejecutar Localmente
-
-Clona este repositorio:
-
-git clone <URL del repositorio>
-
-Instala las dependencias necesarias:
-
-npm install
-
-Crea un archivo .env:
-
-cp .env.example .env
-
-Inicia el servidor de desarrollo:
-
-npm run start
-
-Accede a la aplicación en tu navegador en http://localhost:3000.
+- **Funcionalidades CRUD**
+    - **Create (Crear contacto):**
+	
+         - Implementación de un formulario (ContactForm) que capture los datos del nuevo contacto.
+		 - Validación básica del formulario para evitar entradas vacías.
+		 - Llamado a la función addContact del contexto para agregar el contacto a la lista.
+    - **Read (Leer contacto):**
+	
+         - Listado de contactos usando map() para renderizar cada contacto en ContactList.
+    - **Update (Modificar contacto):**
+	
+         - Implementar un botón de edición para cada contacto.
+    - **Delete (Delete contacto):**
+	
+         - Implementar un botón de eliminar para cada contacto.
