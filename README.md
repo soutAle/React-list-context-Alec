@@ -8,9 +8,9 @@
   - Permite compartir datos globalmente entre componentes sin necesidad de pasar props manualmente.
   
 - **Hooks esenciales:**
- -  **useState**: Manejo del estado local para la lista de contactos.
- - **useContext**: Acceso a los datos del contexto.
- - **useEffect**: Sincronización de datos o efectos secundarios, como cargar datos iniciales.
+ 	-  **useState**: Manejo del estado local para la lista de contactos.
+	- **useContext**: Acceso a los datos del contexto.
+	- **useEffect**: Sincronización de datos o efectos secundarios, como cargar datos iniciales.
 
 - **Funcionalidades CRUD**
     - **Create (Crear contacto):**
