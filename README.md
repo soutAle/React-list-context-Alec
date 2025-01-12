@@ -1,4 +1,6 @@
-<h1>Conocimientos adquiridos</h1>
+<h1>
+	Conocimientos adquiridos
+</h1>
 ### React list context API
 - **Context API**:
   - Permite compartir datos globalmente entre componentes sin necesidad de pasar props manualmente.
