@@ -1,29 +1,24 @@
-<h1>
-	Conocimientos adquiridos
-</h1>
+# React Contact List
 
-### React list context API
+📋 **React Contact List** es una aplicación desarrollada con React para gestionar tus contactos de forma sencilla e intuitiva. Este proyecto incluye funcionalidades como CRUD (Crear, Leer, Actualizar, Eliminar), estado global con Context API y rutas dinámicas usando React Router DOM.
 
-- **Context API:**
-  - Permite compartir datos globalmente entre componentes sin necesidad de pasar props manualmente.
-  
-- **Hooks esenciales:**
- 	-  **useState**: Manejo del estado local para la lista de contactos.
-	- **useContext**: Acceso a los datos del contexto.
-	- **useEffect**: Sincronización de datos o efectos secundarios, como cargar datos iniciales.
+---
 
-- **Funcionalidades CRUD**
-    - **Create (Crear contacto):**
-	
-         - Implementación de un formulario (ContactForm) que capture los datos del nuevo contacto.
-		 - Validación básica del formulario para evitar entradas vacías.
-		 - Llamado a la función addContact del contexto para agregar el contacto a la lista.
-    - **Read (Leer contacto):**
-	
-         - Listado de contactos usando map() para renderizar cada contacto en ContactList.
-    - **Update (Modificar contacto):**
-	
-         - Implementar un botón de edición para cada contacto.
-    - **Delete (Delete contacto):**
-	
-         - Implementar un botón de eliminar para cada contacto.
+## Características 🌟
+
+- **Gestión de contactos**: Agrega, edita y elimina contactos fácilmente.
+- **Estado global**: Uso de Context API con un patrón Flux para manejar datos de forma centralizada.
+- **Interfaz responsiva**: Diseñada con Bootstrap para adaptarse a diferentes tamaños de pantalla.
+- **Hooks de React**: Implementación de `useState`, `useEffect` y `useContext` para el manejo eficiente del estado y efectos secundarios.
+- **Navegación dinámica**: Rutas dinámicas configuradas con React Router DOM para visualizar y gestionar contactos.
+
+---
+
+## Tecnologías utilizadas 🛠️
+
+- **React**: Framework para la creación de interfaces de usuario.
+- **Context API + Flux**: Gestión centralizada del estado.
+- **React Router DOM**: Navegación entre vistas de contactos.
+- **Bootstrap**: Estilo responsivo con componentes prediseñados.
+- **Fetch API o Axios**: Para conectarse a una API o manejar datos locales simulados.
+
